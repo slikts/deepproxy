@@ -1,8 +1,8 @@
 {
   "name": "deepproxy",
   "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Recursive ES2015 Proxy",
+  "keywords": ["proxy", "es2015", "metaprogramming", "recursion"],
   "main": "dist/deepproxy.umd.js",
   "module": "dist/deepproxy.es5.js",
   "typings": "dist/types/deepproxy.d.ts",
@@ -12,11 +12,11 @@
   "author": "slikts <dabas@untu.ms>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://git@github.com:slikts/deepproxy.git"
   },
   "license": "MIT",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=6.4.0"
   },
   "scripts": {
     "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
@@ -114,5 +114,7 @@
   },
   "dependencies": {
     "tuplerone": "^2.0.0"
-  }
+  },
+  "bugs": "https://github.com/slikts/deepproxy/issues",
+  "homepage": "https://github.com/slikts/deepproxy"
 }
