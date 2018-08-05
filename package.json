@@ -1,8 +1,13 @@
 {
   "name": "deepproxy",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Recursive ES2015 Proxy",
-  "keywords": ["proxy", "es2015", "metaprogramming", "recursion"],
+  "keywords": [
+    "proxy",
+    "es2015",
+    "metaprogramming",
+    "recursion"
+  ],
   "main": "dist/deepproxy.umd.js",
   "module": "dist/deepproxy.es5.js",
   "typings": "dist/types/deepproxy.d.ts",
@@ -12,7 +17,7 @@
   "author": "slikts <dabas@untu.ms>",
   "repository": {
     "type": "git",
-    "url": "git://git@github.com:slikts/deepproxy.git"
+    "url": "https://github.com/slikts/deepproxy"
   },
   "license": "MIT",
   "engines": {
@@ -29,8 +34,6 @@
     "deploy-docs": "ts-node tools/gh-pages-publish",
     "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "commit": "git-cz",
-    "semantic-release": "semantic-release",
-    "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
     "precommit": "lint-staged",
     "prepush": "npm run test:prod && npm run build",
     "commitmsg": "validate-commit-msg"
@@ -102,7 +105,6 @@
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-typescript2": "^0.16.1",
-    "semantic-release": "^15.9.3",
     "ts-jest": "^23.1.2",
     "ts-node": "^7.0.0",
     "tslint": "^5.11.0",
