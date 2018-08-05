@@ -1,4 +1,4 @@
-import { deepProxy } from '../src/deepProxy'
+import { deepProxy } from '../src/deepproxy'
 
 describe('deepProxy', () => {
   it('recursively wraps', () => {
