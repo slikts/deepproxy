@@ -1,6 +1,6 @@
 {
   "name": "@slikts/deepproxy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Recursive ES2015 Proxy",
   "keywords": [
     "proxy",
@@ -9,7 +9,7 @@
     "recursion"
   ],
   "main": "dist/deepproxy.umd.js",
-  "module": "dist/deepproxy.es5.js",
+  "module": "dist/deepproxy.es6.js",
   "typings": "dist/types/deepproxy.d.ts",
   "files": [
     "dist"
