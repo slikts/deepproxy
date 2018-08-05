@@ -1,5 +1,5 @@
 {
-  "name": "deepproxy",
+  "name": "@slikts/deepproxy",
   "version": "1.0.0",
   "description": "Recursive ES2015 Proxy",
   "keywords": [

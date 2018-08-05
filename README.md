@@ -8,13 +8,13 @@ A tiny library to recursively wrap an object and all its sub-objects with [ES201
 ## Installation
 
 ```
-npm install --save deepproxy
+npm install --save @slikts/deepproxy
 ```
 
 ## Usage
 
 ```js
-import { deepProxy } from "deepproxy"
+import { deepProxy } from "@slikts/deepproxy"
 
 const a = deepProxy({ b: { c: 1 } }, {
   get(target, key) {
